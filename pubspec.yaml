@@ -1,0 +1,35 @@
+name: privacy_screen_guard
+description: Prevent screenshots and obscure sensitive app content during screen capture or background transitions on Android and iOS.
+version: 0.0.1
+homepage: https://github.com/bensgo/PrivacyScreenGuardPlugin
+repository: https://github.com/bensgo/PrivacyScreenGuardPlugin
+issue_tracker: https://github.com/bensgo/PrivacyScreenGuardPlugin/issues
+topics:
+  - privacy
+  - security
+  - screenshot
+  - screen-capture
+  - flutter-plugin
+
+environment:
+  sdk: ^3.9.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.privacy_screen_guard
+        pluginClass: PrivacyScreenGuardPlugin
+      ios:
+        pluginClass: PrivacyScreenGuardPlugin

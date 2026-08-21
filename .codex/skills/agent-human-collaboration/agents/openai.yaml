@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Human Collaboration"
+  short_description: "跨项目执行 Agent 与人工协作、状态追踪和 Git 交付规范"
+  default_prompt: "使用此 Skill 管理 Agent 与人工协作：先读取项目文档，跟踪任务状态，处理方向确认超时，验证并以中英文双语提交 Git。"
